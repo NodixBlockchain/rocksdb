@@ -15,7 +15,7 @@ endif
 export PYTHON
 
 CLEAN_FILES = # deliberately empty, so we can append below.
-CFLAGS += ${EXTRA_CFLAGS}
+CFLAGS += ${EXTRA_CFLAGS} 
 CXXFLAGS += ${EXTRA_CXXFLAGS}
 LDFLAGS += $(EXTRA_LDFLAGS)
 MACHINE ?= $(shell uname -m)
